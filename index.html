@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Islam Badawi — Data Analyst, Android Developer and AI Agent Developer.">
+<title>Islam Badawi — Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Readex+Pro:wght@400;500;600&family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* OLED black + liquid-glass surfaces */
+:root{color-scheme:dark;--bg:#000;--panel:rgba(18,20,19,.54);--panel2:rgba(30,33,31,.52);--text:#f5f6f4;--muted:#a4aaa4;--line:rgba(220,235,225,.17);--accent:#a8f45a}
+body{background:#000}
+header{background:rgba(0,0,0,.78);border-bottom:1px solid rgba(220,235,225,.15);backdrop-filter:blur(22px) saturate(155%);-webkit-backdrop-filter:blur(22px) saturate(155%)}
+.box,.skill,.project,.service,.contact-links a,.project-art,.status,.button,.cta,.menu,.tag,.focus-icon{border-radius:22px;border:1px solid rgba(220,235,225,.18);background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.018) 48%,rgba(168,244,90,.025)),rgba(16,19,17,.56);box-shadow:inset 0 1px 0 rgba(255,255,255,.11),0 12px 32px rgba(0,0,0,.25);backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%)}
+.button.primary{background:linear-gradient(135deg,#b8ff72,#8be83e);color:#10150b;border-color:rgba(190,255,145,.55)}
+.project-art{overflow:hidden}.app-icon{border-radius:22px}.visual:before{border-radius:26px 26px 0 0;background:linear-gradient(140deg,rgba(255,255,255,.04),rgba(168,244,90,.07),rgba(255,255,255,.01))}
+.strip{border-color:rgba(220,235,225,.16)}
+
+:root{color-scheme:dark;--bg:#000;--panel:#080a08;--panel2:#101310;--text:#f5f6f4;--muted:#a4aaa4;--line:#252925;--accent:#a8f45a;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.7 Inter,"Readex Pro",system-ui,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.mono,.eyebrow,.skill-label,.number{font-family:"DM Mono",monospace}
+h1,h2,h3,h4,h5,h6,.title,.heading{font-family:"Plus Jakarta Sans","Cairo",sans-serif;font-weight:800}
+html[lang="ar"] body{font-family:"Readex Pro","Cairo",system-ui,sans-serif;letter-spacing:0}
+html[lang="ar"] h1,html[lang="ar"] h2,html[lang="ar"] h3,html[lang="ar"] h4,html[lang="ar"] h5,html[lang="ar"] h6{font-family:"Cairo","Plus Jakarta Sans",sans-serif}
+header{height:72px;border-bottom:1px solid var(--line);position:sticky;top:0;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(14px);z-index:10}.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-size:14px}.brand-mark{color:var(--accent);font-weight:800;font-size:20px;letter-spacing:-2px}.navlinks{display:flex;align-items:center;gap:27px}.navlinks a{font-size:12px;color:var(--muted)}.navlinks a:hover,.navlinks a.active{color:var(--accent)}.navright{display:flex;align-items:center;gap:12px}.cta{border:1px solid var(--accent);border-radius:7px;padding:9px 16px;color:var(--accent);font-size:12px}.menu{display:none;background:none;color:var(--text);border:1px solid var(--line);padding:7px 10px;border-radius:6px}
+.hero{direction:ltr;grid-template-areas:"copy visual";min-height:414px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:36px;padding:35px 0 22px;overflow:hidden}.status{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:30px;padding:5px 12px;color:var(--muted);font:11px "DM Mono",monospace}.status:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}h1{font-size:clamp(52px,7vw,82px);line-height:.95;letter-spacing:-.075em;margin:20px 0 8px;font-weight:800}h1 span{display:block;color:var(--accent)}.roles{font-size:15px;margin:12px 0;color:var(--muted)}.roles b{color:var(--text);font-weight:500}.intro{max-width:510px;color:var(--muted);font-size:13px;line-height:1.8;margin:16px 0 22px}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;gap:12px;border:1px solid var(--line);padding:11px 17px;border-radius:28px;font-size:12px}.button.primary{background:var(--accent);border-color:var(--accent);color:#10150b!important}.button:hover,.cta:hover{transform:translateY(-2px)}.socials{display:flex;gap:0;margin-top:22px;color:var(--muted);font-size:11px}.social-icon{width:16px;height:16px;display:inline-block;vertical-align:middle;object-fit:contain}.skill-name{display:flex;align-items:center;gap:9px}.skill-icon{width:28px;height:28px;flex:0 0 28px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);display:inline-grid;place-items:center}.skill-icon img{width:16px;height:16px;display:block}.socials a{align-items:center;display:inline-flex;gap:4px;padding:0 14px;border-left:1px solid var(--line)}.socials a:first-child{padding-left:0;border:0}.socials a:hover{color:var(--accent)}
+.visual{height:390px;direction:ltr;position:relative;display:flex;align-items:flex-end;justify-content:center;isolation:isolate}.visual:before{content:"";position:absolute;right:6%;bottom:0;width:74%;height:72%;border:1px solid var(--line);border-radius:18px 18px 0 0;z-index:-2;background:linear-gradient(135deg,transparent 45%,color-mix(in srgb,var(--accent) 12%,transparent) 45%,transparent 70%)}.visual:after{content:"";position:absolute;right:13%;bottom:0;width:52%;height:52%;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:26px 26px;opacity:.35;z-index:-1}.portrait{height:100%;width:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 0 24px #0008)}.portrait-light{display:none}.side-note{position:absolute;right:0;top:23%;border-left:2px solid var(--accent);padding-left:12px;font-size:11px;color:var(--muted);line-height:1.65;max-width:82px}
+.strip{border-block:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;padding:15px 0;font:11px "DM Mono",monospace;color:var(--muted)}.strip span{white-space:nowrap}.strip i{font-style:normal;color:var(--accent);margin-right:8px}
+section{padding:56px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-bottom:24px;align-items:start}.section-kicker{font:11px "DM Mono",monospace;color:var(--accent);margin-bottom:8px}.section-title{font-size:clamp(25px,3vw,34px);letter-spacing:-.045em;line-height:1.2;margin:0;font-weight:600}.section-desc{color:var(--muted);font-size:12px;max-width:470px;margin:10px 0 0}.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:16px}.box{border:1px solid var(--line);border-radius:9px;background:var(--panel);padding:22px}.box h3{font-size:13px;margin:0 0 12px;font-weight:600}.box p{font-size:12px;color:var(--muted);margin:0;line-height:1.85}.focus-item{display:grid;grid-template-columns:28px 1fr;gap:12px;margin-top:14px}.focus-icon{height:27px;width:27px;border:1px solid var(--line);border-radius:7px;display:grid;place-items:center;color:var(--accent);font:11px "DM Mono",monospace}.focus-item strong{font-size:12px;font-weight:600}.focus-item p{margin-top:2px;font-size:11px}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:17px}.skill-label{font-size:10px;color:var(--muted);margin-bottom:14px}.skill-row{margin:12px 0}.skill-top{display:flex;justify-content:space-between;font-size:11px;margin-bottom:6px}.skill-top small{font:10px "DM Mono",monospace;color:var(--muted)}.track{height:8px;background:#252a27;border-radius:999px;overflow:hidden;position:relative;isolation:isolate}.track span{display:block;height:8px;min-width:0;border-radius:999px;position:relative;overflow:hidden;background:var(--accent)}
+html[lang="ar"] .hero-copy{direction:rtl;text-align:right}
+html[lang="ar"] .brand{font-size:12px;gap:8px;white-space:nowrap}
+html[lang="ar"] .brand-name{font-size:12px;line-height:1.5;display:inline-block;padding-block:2px}
+html[lang="ar"] h1{font-size:clamp(52px,7vw,82px);line-height:1.12;letter-spacing:0;margin-bottom:14px}
+html[lang="ar"] .track span{margin-left:auto}
+html[lang="ar"] .hero-copy .socials a{border-left:0;border-right:1px solid var(--line)}
+html[lang="ar"] .hero-copy .socials a:first-child{border-right:0;padding-right:0}
+html[lang="ar"] .side-note{border-left:0;border-right:2px solid var(--accent);padding-left:0;padding-right:12px;text-align:right}
+
+.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.project{display:grid;grid-template-columns:145px 1fr;gap:18px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--panel);min-width:0}.project-art{height:174px;overflow:hidden;border-radius:8px;background:var(--panel2);display:flex;align-items:center;justify-content:center}.project-art img{height:100%;width:100%;object-fit:cover;object-position:top}.app-icon{width:72px;height:72px;border-radius:18px;background:#a8f45a;color:#14210a;display:grid;place-items:center;font-size:32px;font-weight:800;box-shadow:0 8px 28px #a8f45a25}.project h3{margin:0;font-size:17px;letter-spacing:-.03em}.subtitle{color:var(--muted);font-size:11px;margin:1px 0 10px}.project p{font-size:11px;color:var(--muted);line-height:1.7;margin:0 0 12px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.tag{font:9px "DM Mono",monospace;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:4px 7px}.project-link{display:inline-flex;border:1px solid var(--accent);border-radius:24px;padding:8px 13px;color:var(--accent);font-size:10px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.service{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:20px}.service .number{color:var(--accent);font-size:11px}.service h3{font-size:14px;margin:14px 0 7px}.service p{font-size:11px;color:var(--muted);margin:0;line-height:1.75}.contact-row{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.contact-links{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.contact-links a{padding:12px;border:1px solid var(--line);border-radius:8px;font-size:11px;color:var(--muted)}.contact-links a:hover{color:var(--accent);border-color:var(--accent)}footer{padding:18px 0;color:var(--muted);font:10px "DM Mono",monospace;display:flex;justify-content:space-between;gap:20px}
+.lang-toggle{cursor:pointer;padding:9px 13px;border-radius:22px;border:1px solid rgba(220,235,225,.2);background:rgba(255,255,255,.06);color:var(--text);font:12px Manrope,sans-serif;backdrop-filter:blur(16px)}.location-line{color:var(--muted);font-size:13px;margin:0 0 18px}.rtl{direction:rtl;text-align:right}.rtl .navlinks{direction:rtl}.rtl .socials a{border-left:0;border-right:1px solid var(--line)}.rtl .socials a:first-child{padding-right:0;border-right:0}.rtl .side-note{border-left:0;border-right:2px solid var(--accent);padding-left:0;padding-right:12px}.rtl .contact-links{text-align:right}.rtl .focus-item{grid-template-columns:1fr 28px}.rtl .focus-icon{grid-column:2}.rtl .focus-item>div{grid-column:1;grid-row:1}.rtl .project{direction:rtl;text-align:right}.rtl .skill-top{direction:rtl}.rtl .section-head{direction:rtl}.rtl .hero-copy,.rtl .status,.rtl .roles,.rtl .intro{ text-align:right }.rtl .actions{direction:rtl}.rtl .strip{direction:rtl}.rtl .service{text-align:right}.rtl .project-link{direction:rtl}:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+.app-logo{width:100%;height:100%;object-fit:contain;padding:8px;border-radius:8px;background:#071006}
+.telegram-icon{background:transparent!important;color:#fff!important;overflow:hidden}.telegram-icon img{width:100%;height:100%;object-fit:cover;border-radius:18px}
+.project-art{position:relative}
+.project-art img{display:block}
+@media(max-width:850px){.navlinks{gap:13px}.hero{grid-template-columns:1fr .8fr}.visual{height:330px}.skills{grid-template-columns:repeat(2,1fr)}.project{grid-template-columns:115px 1fr}.project-art{height:160px}.screen img{height:240px}}
+@media(max-width:620px){.wrap{width:calc(100% - 32px)}header{height:auto;min-height:64px}.nav{min-height:64px;flex-wrap:wrap;padding:12px 0}.navlinks{display:none;order:3;width:100%;justify-content:space-between;padding:10px 0 3px}.navlinks.open{display:flex}.navright{margin-left:auto}.menu{display:block}.cta{padding:8px 11px}.hero{grid-template-columns:1fr;gap:0;padding-top:34px}.hero-copy{order:1}.visual{order:2;height:450px;margin-top:12px;width:100%}.visual .portrait{width:100%;height:100%;object-fit:contain;object-position:center bottom}.side-note{right:2%;top:14%}.strip{overflow:auto;justify-content:flex-start;gap:28px;padding:13px 0}.section-head{grid-template-columns:1fr;gap:6px}.about-grid,.project-grid,.contact-row{grid-template-columns:1fr}.skills{gap:9px}.skill{padding:13px}.project{grid-template-columns:105px 1fr;padding:11px;gap:12px}.project-art{height:145px}.app-logo{padding:5px}.project h3{font-size:15px}.project p{font-size:10px}.services{grid-template-columns:1fr}.contact-links{grid-template-columns:repeat(2,1fr)}section{padding:44px 0}footer{flex-direction:column;gap:5px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Mobile hero repair: stack copy and portrait into separate, full-width rows. */
+@media (max-width:620px){
+  .hero{
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:stretch!important;
+    gap:0!important;
+    grid-template-columns:minmax(0,1fr)!important;
+    grid-template-areas:none!important;
+    min-height:0!important;
+    overflow:visible!important;
+    padding:28px 0 24px!important;
+  }
+  .hero-copy{order:1!important;width:100%;min-width:0;text-align:start}
+  .hero-copy h1{font-size:clamp(46px,13vw,66px)!important;line-height:1.04!important;letter-spacing:-.055em!important;overflow-wrap:normal;}
+  html[lang="ar"] .hero-copy h1{font-size:clamp(43px,11.8vw,58px)!important;line-height:1.2!important;letter-spacing:0!important;margin-top:18px!important;margin-bottom:12px!important;}
+  .roles{font-size:13px;line-height:1.8;overflow-wrap:anywhere}
+  .intro{max-width:none;width:100%;font-size:14px;line-height:1.9}
+  .actions{width:100%;gap:10px}
+  .actions .button{justify-content:center;flex:1 1 auto;min-height:48px}
+  .socials{flex-wrap:wrap;row-gap:12px}
+  .visual{
+    order:2!important;
+    display:flex!important;
+    position:relative!important;
+    width:100%!important;
+    height:clamp(330px,105vw,460px)!important;
+    min-height:330px!important;
+    max-height:460px!important;
+    margin:26px 0 0!important;
+    align-self:stretch!important;
+    overflow:hidden!important;
+  }
+  .visual .portrait{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;object-fit:contain!important;object-position:center bottom!important}
+  .side-note{display:none!important}
+}
+
+/* Refined skills progress bars: smooth fill animation, no wave texture. */
+.track{height:9px;background:#252a27;border-radius:999px;overflow:hidden;position:relative;isolation:isolate}
+.track span{height:100%;border-radius:999px;background:var(--accent);display:block;transform:scaleX(0);transform-origin:left center;animation:skill-fill 1.35s cubic-bezier(.2,.75,.25,1) forwards}
+html[lang="ar"] .track span{transform-origin:right center;margin-left:auto}
+@keyframes skill-fill{to{transform:scaleX(1)}}
+/* Subtle green geometric thread network behind the portrait. */
+.visual:after{
+  content:"";position:absolute;inset:7% 3% 0;width:auto;height:auto;
+  background-color:transparent;
+  background-image:
+    radial-gradient(circle at 14% 22%,#a8f45a 0 2px,transparent 3px),
+    radial-gradient(circle at 79% 17%,#a8f45a 0 2px,transparent 3px),
+    radial-gradient(circle at 90% 53%,#a8f45a 0 2px,transparent 3px),
+    radial-gradient(circle at 21% 76%,#a8f45a 0 2px,transparent 3px),
+    radial-gradient(circle at 65% 88%,#a8f45a 0 2px,transparent 3px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 420'%3E%3Cg fill='none' stroke='%23a8f45a' stroke-opacity='.42' stroke-width='1'%3E%3Cpath d='M12 90L105 42 190 108 284 38 407 94M12 90L68 205 190 108 237 220 407 94M68 205L20 332 150 390 237 220 340 324 407 94M105 42L68 205 150 390M190 108L340 324 284 38M237 220L407 370 340 324M20 332L110 278 237 220 407 370'/%3E%3C/g%3E%3Cg fill='%23a8f45a' fill-opacity='.85'%3E%3Ccircle cx='12' cy='90' r='3'/%3E%3Ccircle cx='105' cy='42' r='3'/%3E%3Ccircle cx='190' cy='108' r='3'/%3E%3Ccircle cx='284' cy='38' r='3'/%3E%3Ccircle cx='407' cy='94' r='3'/%3E%3Ccircle cx='68' cy='205' r='3'/%3E%3Ccircle cx='237' cy='220' r='3'/%3E%3Ccircle cx='20' cy='332' r='3'/%3E%3Ccircle cx='150' cy='390' r='3'/%3E%3Ccircle cx='340' cy='324' r='3'/%3E%3Ccircle cx='407' cy='370' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:100% 100%;background-position:center;background-repeat:no-repeat;
+  opacity:.32;z-index:-1;pointer-events:none
+}
+.visual:before{z-index:-2}
+.portrait{position:relative;z-index:0}
+@media(prefers-reduced-motion:reduce){.track span{animation:none;transform:scaleX(1)}}
+
+</style>
+<script>
+(function(){try{let t=localStorage.getItem('ib-theme');document.documentElement.dataset.theme=t||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark')}catch(e){}})();
+</script>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="brand-mark">IB</span><span class="brand-name">Islam Badawi</span></a>
+<nav class="navlinks" id="navlinks"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+<div class="navright"><button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">العربية</button><a class="cta" href="#contact"><img class="social-icon" src="https://api.iconify.design/lucide:mail.svg?color=%23a8f45a" alt=""> Get in Touch</a><button class="menu" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+</div></header>
+<main>
+<div class="wrap hero" id="home">
+<div class="hero-copy">
+<div class="status">Building useful digital solutions</div>
+<h1>Islam<span>Badawi</span></h1>
+<div class="roles">Data Analyst <b>·</b> Android Developer <b>·</b> AI Agent Developer</div>
+<p class="intro">I build practical digital solutions across data analysis, Android applications, and AI-powered assistants. I enjoy turning ideas into useful products, learning through hands-on projects, and continuously improving my technical skills.</p>
+<div class="actions"><a class="button primary" href="#projects">View My Projects <span>→</span></a><a class="button" href="#contact"><img class="social-icon" src="https://api.iconify.design/lucide:mail.svg?color=%23a8f45a" alt=""> Contact Me <span>↗</span></a></div>
+<div class="socials"><a href="https://github.com/islambadawi0" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:github.svg?color=%23a8f45a" alt="">&nbsp;GitHub</a><a href="https://www.linkedin.com/in/islam-badawi-2096403b7/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:linkedin.svg?color=%23a8f45a" alt="">&nbsp;LinkedIn</a><a href="https://t.me/islamabnbadawi" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:telegram.svg?color=%23a8f45a" alt="">&nbsp;Telegram</a><a href="https://play.google.com/store/apps/details?id=com.rqeem" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:googleplay.svg?color=%23a8f45a" alt="">&nbsp;Google Play</a></div>
+</div>
+<div class="visual"><img class="portrait" src="assets/islam-profile-dark.png" alt="Islam Badawi wearing a light gray suit"><div class="side-note">Turn<br>Ideas<br>Into<br>Real<br>Products</div></div>
+</div>
+<div class="wrap strip"><span><i>01</i>Android applications</span><span><i>02</i>Data & SQL</span><span><i>03</i>Telegram AI assistants</span><span><i>04</i>Egypt ↔ worldwide</span></div>
+<section id="about"><div class="wrap"><div class="section-head"><div><div class="section-kicker">01 &nbsp; About Me</div><h2 class="section-title">Practical builder, still<br>climbing the curve.</h2></div><p class="section-desc">I’m a technology enthusiast focused on building useful software and expanding my skills through hands-on projects. I’m interested in data analysis, Android development, and AI-powered assistants, and I enjoy taking responsibility and working through challenging tasks.</p></div>
+<div class="about-grid"><article class="box"><h3>My approach</h3><p>I have practical experience developing an Android application and a Telegram-based AI assistant. My current learning path includes data analysis, Python, Kotlin, SQL, and SQLite. I use AI tools to support development while taking responsibility for reviewing, testing, and understanding the results. My background has also taught me to stay focused under pressure, take ownership, and work through challenging tasks.</p></article>
+<article class="box"><h3>What I’m focused on</h3><div class="focus-item"><span class="focus-icon">↗</span><div><strong>Data analysis</strong><p>Excel, SQL, SQLite, and building practical analysis projects.</p></div></div><div class="focus-item"><span class="focus-icon">▯</span><div><strong>Android development</strong><p>Kotlin and user-focused mobile application development.</p></div></div><div class="focus-item"><span class="focus-icon">⌘</span><div><strong>AI agents & automation</strong><p>Conversational assistants and useful workflows through Telegram.</p></div></div></article></div></div></section>
+<section id="skills"><div class="wrap"><div class="section-head"><div><div class="section-kicker">02 &nbsp; Skills & Technologies</div><h2 class="section-title">Toolkit & current levels</h2></div><p class="section-desc">Self-assessed levels, updated as I complete more projects—not a certification.</p></div>
+<div class="skills">
+<div class="skill"><div class="skill-label">DATA & DATABASES</div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:microsoft-excel.svg?color=%23a8f45a" alt=""></span>Excel</span><small>60%</small></div><div class="track"><span style="width:60%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:database.svg?color=%23a8f45a" alt=""></span>SQL</span><small>60%</small></div><div class="track"><span style="width:60%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:sqlite.svg?color=%23a8f45a" alt=""></span>SQLite</span><small>80%</small></div><div class="track"><span style="width:80%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:python.svg?color=%23a8f45a" alt=""></span>Python</span><small>40%</small></div><div class="track"><span style="width:40%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:powerbi.svg?color=%23a8f45a" alt=""></span>Power BI</span><small>60%</small></div><div class="track"><span style="width:60%"></span></div></div></div>
+<div class="skill"><div class="skill-label">MOBILE DEVELOPMENT</div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:kotlin.svg?color=%23a8f45a" alt=""></span>Kotlin</span><small>40%</small></div><div class="track"><span style="width:40%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:android.svg?color=%23a8f45a" alt=""></span>Android Development</span><small>80%</small></div><div class="track"><span style="width:80%"></span></div></div></div>
+<div class="skill"><div class="skill-label">AI & AUTOMATION</div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:telegram.svg?color=%23a8f45a" alt=""></span>Telegram Bots</span><small>60%</small></div><div class="track"><span style="width:60%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:openai.svg?color=%23a8f45a" alt=""></span>AI Agents</span><small>60%</small></div><div class="track"><span style="width:60%"></span></div></div></div>
+<div class="skill"><div class="skill-label">MOBILE SOFTWARE</div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:tools.svg?color=%23a8f45a" alt=""></span>Troubleshooting</span><small>80%</small></div><div class="track"><span style="width:80%"></span></div></div><div class="skill-row"><div class="skill-top"><span class="skill-name"><span class="skill-icon"><img src="https://api.iconify.design/simple-icons:android.svg?color=%23a8f45a" alt=""></span>Bootloader Procedures</span><small>80%</small></div><div class="track"><span style="width:80%"></span></div></div></div>
+</div></div></section>
+<section id="projects"><div class="wrap"><div class="section-head"><div><div class="section-kicker">03 &nbsp; Featured Projects</div><h2 class="section-title">Selected work</h2></div><p class="section-desc">A look at products I’ve built and the problems I’m exploring.</p></div>
+<div class="project-grid">
+<article class="project"><div class="project-art"><img class="app-logo" src="assets/rqeem-app-brand.jpg" alt="Rqeem app logo"></div><div><h3>Rqeem</h3><div class="subtitle">Islamic Companion App</div><p>An Islamic companion app with prayer times, Quran, azkar, audio recitations, and tools designed to support daily worship.</p><div class="tags"><span class="tag">Android</span><span class="tag">Kotlin</span><span class="tag">SQLite</span><span class="tag">Islamic</span></div><a class="project-link" href="https://play.google.com/store/apps/details?id=com.rqeem" target="_blank" rel="noopener noreferrer">View on Google Play ↗</a></div></article>
+<article class="project"><div class="project-art"><div class="app-icon telegram-icon" aria-label="Telegram assistant"><img src="assets/telegram-icon.jpg" alt="Telegram logo"></div></div><div><h3>Personal AI Assistant</h3><div class="subtitle">Hermes Agent + Telegram</div><p>A personal assistant connected to Telegram to support learning, research, language practice, planning, and everyday problem-solving.</p><div class="tags"><span class="tag">Telegram</span><span class="tag">Hermes Agent</span><span class="tag">AI</span></div><a class="project-link" href="https://t.me/islamabnbadawi" target="_blank" rel="noopener noreferrer">Explore Telegram ↗</a></div></article>
+</div>
+
+<div class="box" style="margin-top:16px"><h3>Data analysis · In progress</h3><p>I’m developing practical data analysis projects and will add detailed case studies as they are completed.</p></div>
+</div></section>
+<section id="services"><div class="wrap"><div class="section-head"><div><div class="section-kicker">04 &nbsp; Services</div><h2 class="section-title">Let’s build something<br>useful together.</h2></div><p class="section-desc">I’m open to focused freelance opportunities in data analysis, Android development, and AI agent development. Tell me about your idea and we can discuss the scope.</p></div>
+<div class="services"><article class="service"><span class="number">01 / DATA</span><h3>Data Analysis</h3><p>Organize, explore, and summarize data using Excel, SQL, SQLite, and Python fundamentals to help make information easier to understand.</p></article><article class="service"><span class="number">02 / MOBILE</span><h3>Android Application Development</h3><p>Build practical Android experiences with a focus on useful features, clear interfaces, and dependable everyday workflows.</p></article><article class="service"><span class="number">03 / AI</span><h3>AI Agent & Telegram Bot Development</h3><p>Create focused conversational assistants and Telegram-based workflows that help reduce repetitive tasks and support productivity.</p></article></div></div></section>
+<section id="contact"><div class="wrap"><p class="location-line"><img class="social-icon" src="https://api.iconify.design/lucide:map-pin.svg?color=%23a8f45a" alt=""> &nbsp;Beni Suef, Egypt</p></div><div class="wrap contact-row"><div><div class="section-kicker">05 &nbsp; Contact</div><h2 class="section-title">Get in touch</h2><p class="section-desc">Open to freelance opportunities and collaborations. Feel free to reach out and tell me what you’re working on.</p></div><div class="contact-links"><a href="https://wa.me/201140794966" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:whatsapp.svg?color=%23a8f45a" alt="">&nbsp;WhatsApp ↗</a><a href="mailto:albdywy4@gmail.com"><img class="social-icon" src="https://api.iconify.design/simple-icons:gmail.svg?color=%23a8f45a" alt="">&nbsp;Email ↗</a><a href="https://github.com/islambadawi0" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:github.svg?color=%23a8f45a" alt="">&nbsp;GitHub ↗</a><a href="https://www.linkedin.com/in/islam-badawi-2096403b7/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:linkedin.svg?color=%23a8f45a" alt="">&nbsp;LinkedIn ↗</a><a href="https://t.me/islamabnbadawi" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:telegram.svg?color=%23a8f45a" alt="">&nbsp;Telegram ↗</a><a href="https://play.google.com/store/apps/details?id=com.rqeem" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="https://api.iconify.design/simple-icons:googleplay.svg?color=%23a8f45a" alt="">&nbsp;Google Play ↗</a></div></div></section>
+</main>
+<footer class="wrap"><span>© 2025 Islam Badawi. All rights reserved.</span><span>Better Skills · Better Projects · A Brighter Future</span></footer>
+<script>
+const menu=document.getElementById('menuBtn'),links=document.getElementById('navlinks');
+menu.addEventListener('click',()=>{const opened=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(opened));menu.setAttribute('aria-label',opened?'Close navigation':'Open navigation')});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+const translations={
+'Home':'الرئيسية','About':'نبذة عني','Skills':'المهارات','Projects':'المشاريع','Services':'الخدمات','Contact':'التواصل','Get in Touch':'تواصل معي','Building useful digital solutions':'أبني حلولًا رقمية مفيدة','Data Analyst':'محلل بيانات','Android Developer':'مطور أندرويد','AI Agent Developer':'مطور وكلاء الذكاء الاصطناعي','I build practical digital solutions across data analysis, Android applications, and AI-powered assistants. I enjoy turning ideas into useful products, learning through hands-on projects, and continuously improving my technical skills.':'أبني حلولًا رقمية عملية في تحليل البيانات وتطبيقات أندرويد والمساعدين المدعومين بالذكاء الاصطناعي. أستمتع بتحويل الأفكار إلى منتجات مفيدة، والتعلم من خلال المشاريع العملية، وتطوير مهاراتي التقنية باستمرار.','View My Projects':'استكشف مشاريعي','Contact Me':'تواصل معي','GitHub':'جيت هاب','LinkedIn':'لينكدإن','Telegram':'تيليجرام','Google Play':'جوجل بلاي','Android applications':'تطبيقات أندرويد','Data & SQL':'البيانات وSQL','Telegram AI assistants':'مساعدو تيليجرام الذكيون','Egypt ↔ worldwide':'مصر ↔ العالم','About Me':'نبذة عني','Practical builder, still<br>climbing the curve.':'أبني حلولًا عملية<br>وأواصل تطوير مهاراتي.','I’m a technology enthusiast focused on building useful software and expanding my skills through hands-on projects. I’m interested in data analysis, Android development, and AI-powered assistants, and I enjoy taking responsibility and working through challenging tasks.':'أنا شغوف بالتكنولوجيا وأركز على بناء برامج مفيدة وتوسيع مهاراتي من خلال المشاريع العملية. أهتم بتحليل البيانات وتطوير أندرويد والمساعدين المدعومين بالذكاء الاصطناعي، وأستمتع بتحمل المسؤولية والعمل على التحديات.','My approach':'منهجي','I have practical experience developing an Android application and a Telegram-based AI assistant. My current learning path includes data analysis, Python, Kotlin, SQL, and SQLite. I use AI tools to support development while taking responsibility for reviewing, testing, and understanding the results. My background has also taught me to stay focused under pressure, take ownership, and work through challenging tasks.':'لدي خبرة عملية في تطوير تطبيق أندرويد ومساعد ذكاء اصطناعي عبر تيليجرام. يشمل مسار تعلمي الحالي تحليل البيانات وPython وKotlin وSQL وSQLite. أستخدم أدوات الذكاء الاصطناعي لدعم التطوير مع تحمّل مسؤولية مراجعة النتائج واختبارها وفهمها. كما علّمتني خبراتي التركيز تحت الضغط وتحمل المسؤولية ومواجهة التحديات.','What I’m focused on':'ما أركز عليه','Data analysis':'تحليل البيانات','Excel, SQL, SQLite, and building practical analysis projects.':'Excel وSQL وSQLite وبناء مشاريع تحليل عملية.','Android development':'تطوير أندرويد','Kotlin and user-focused mobile application development.':'Kotlin وتطوير تطبيقات جوال تركز على المستخدم.','AI agents & automation':'وكلاء الذكاء الاصطناعي والأتمتة','Conversational assistants and useful workflows through Telegram.':'مساعدون محادثيون وسير عمل مفيدة عبر تيليجرام.','Skills & Technologies':'المهارات والتقنيات','Toolkit & current levels':'أدواتي ومستويات مهاراتي الحالية','Self-assessed levels, updated as I complete more projects—not a certification.':'مستويات تقييم ذاتي، يتم تحديثها مع إنجاز المشاريع وليست شهادة معتمدة.','DATA & DATABASES':'البيانات وقواعد البيانات','MOBILE DEVELOPMENT':'تطوير تطبيقات الجوال','AI & AUTOMATION':'الذكاء الاصطناعي والأتمتة','MOBILE SOFTWARE':'برمجيات الجوال','Featured Projects':'مشاريع مميزة','Selected work':'أعمال مختارة','A look at products I’ve built and the problems I’m exploring.':'نظرة على المنتجات التي طورتها والمشكلات التي أستكشف حلولها.','Islamic Companion App':'تطبيق رفيق المسلم','An Islamic companion app with prayer times, Quran, azkar, audio recitations, and tools designed to support daily worship.':'تطبيق إسلامي يضم مواقيت الصلاة والقرآن والأذكار والتلاوات الصوتية وأدوات تساعد على العبادة اليومية.','View on Google Play ↗':'عرض على Google Play ↗','Personal AI Assistant':'مساعد ذكاء اصطناعي شخصي','Hermes Agent + Telegram':'Hermes Agent + تيليجرام','A personal assistant connected to Telegram to support learning, research, language practice, planning, and everyday problem-solving.':'مساعد شخصي متصل بتيليجرام لدعم التعلم والبحث وممارسة اللغات والتخطيط وحل المشكلات اليومية.','Explore Telegram ↗':'استكشف تيليجرام ↗','Data analysis · In progress':'تحليل البيانات · قيد التطوير','I’m developing practical data analysis projects and will add detailed case studies as they are completed.':'أعمل على تطوير مشاريع عملية لتحليل البيانات وسأضيف دراسات حالة مفصلة عند اكتمالها.','Services':'الخدمات','Let’s build something<br>useful together.':'لنبنِ شيئًا<br>مفيدًا معًا.','I’m open to focused freelance opportunities in data analysis, Android development, and AI agent development. Tell me about your idea and we can discuss the scope.':'أنا منفتح على فرص العمل الحر في تحليل البيانات وتطوير أندرويد ووكلاء الذكاء الاصطناعي. أخبرني بفكرتك لنناقش نطاق العمل.','Data Analysis':'تحليل البيانات','Organize, explore, and summarize data using Excel, SQL, SQLite, and Python fundamentals to help make information easier to understand.':'تنظيم البيانات واستكشافها وتلخيصها باستخدام Excel وSQL وSQLite وأساسيات Python لتسهيل فهم المعلومات.','Android Application Development':'تطوير تطبيقات أندرويد','Build practical Android experiences with a focus on useful features, clear interfaces, and dependable everyday workflows.':'بناء تجارب أندرويد عملية مع التركيز على الميزات المفيدة والواجهات الواضحة وسير العمل الموثوق.','AI Agent & Telegram Bot Development':'تطوير وكلاء الذكاء الاصطناعي وبوتات تيليجرام','Create focused conversational assistants and Telegram-based workflows that help reduce repetitive tasks and support productivity.':'إنشاء مساعدين محادثيين وسير عمل عبر تيليجرام لتقليل المهام المتكررة ودعم الإنتاجية.','Get in touch':'تواصل معي','Open to freelance opportunities and collaborations. Feel free to reach out and tell me what you’re working on.':'متاح لفرص العمل الحر والتعاون. لا تتردد في التواصل وإخباري بما تعمل عليه.','Beni Suef, Egypt':'بني سويف، مصر','Better Skills · Better Projects · A Brighter Future':'مهارات أفضل · مشاريع أفضل · مستقبل أكثر إشراقًا','© 2025 Islam Badawi. All rights reserved.':'© 2025 إسلام بدوي. جميع الحقوق محفوظة.','Switch language':'تغيير اللغة','Islam Badawi':'إسلام بدوي','Islam':'إسلام','Badawi':'بدوي'
+};
+// Preserve the exact English text once, so language switching is reversible.
+const originalTexts=new Map();
+const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+let node;
+while(node=walker.nextNode()){
+  const raw=node.nodeValue, value=raw.trim();
+  if(value) originalTexts.set(node,{raw,value});
+}
+// Complete translations for short fragments and phrases that are split by HTML elements.
+Object.assign(translations,{
+  'climbing the curve.':'وأواصل تطوير مهاراتي.',
+  'Practical builder, still':'أبني حلولًا عملية،',
+  'Turn':'حوّل', 'Ideas':'الأفكار', 'Into':'إلى', 'Real':'منتجات', 'Products':'حقيقية',
+  'Let’s build something':'لنبنِ شيئًا', 'useful together.':'مفيدًا معًا.',
+  '01':'٠١','02':'٠٢','03':'٠٣','04':'٠٤','05':'٠٥',
+  'Excel':'إكسل','SQL':'SQL','SQLite':'SQLite','Python':'Python','Power BI':'Power BI',
+  'Kotlin':'Kotlin','Android Development':'تطوير أندرويد','Telegram Bots':'بوتات تيليجرام','AI Agents':'وكلاء الذكاء الاصطناعي',
+  'Troubleshooting':'استكشاف الأخطاء وإصلاحها','Bootloader Procedures':'إجراءات البوتلودر',
+  'Android':'أندرويد','Islamic':'إسلامي','Hermes Agent':'Hermes Agent','AI':'ذكاء اصطناعي',
+  'Data analysis · In progress':'تحليل البيانات · قيد التنفيذ',
+  '01 / DATA':'٠١ / بيانات','02 / MOBILE':'٠٢ / تطبيقات','03 / AI':'٠٣ / ذكاء اصطناعي'
+});
+let arabic=false;
+function applyLanguage(useArabic){
+  arabic=useArabic;
+  document.documentElement.lang=arabic?'ar':'en';
+  document.documentElement.dir=arabic?'rtl':'ltr';
+  document.body.classList.toggle('rtl',arabic);
+  originalTexts.forEach(({raw,value},textNode)=>{
+    const leading=raw.match(/^\s*/)?.[0]||'';
+    const trailing=raw.match(/\s*$/)?.[0]||'';
+    const translated=translations[value];
+    textNode.nodeValue=leading+(arabic&&translated?translated:value)+trailing;
+  });
+  const toggle=document.getElementById('langToggle');
+  toggle.textContent=arabic?'English':'العربية';
+  toggle.setAttribute('aria-label',arabic?'Switch to English':'التبديل إلى العربية');
+  document.title=arabic?'إسلام بدوي — معرض الأعمال':'Islam Badawi — Developer Portfolio';
+  const brandName=document.querySelector('.brand-name');if(brandName)brandName.textContent=arabic?'إسلام بدوي':'Islam Badawi';
+  const portrait=document.querySelector('.portrait');if(portrait)portrait.alt=arabic?'إسلام بدوي يرتدي بدلة رمادية فاتحة':'Islam Badawi wearing a light gray suit';
+  try{localStorage.setItem('ib-language',arabic?'ar':'en')}catch(e){}
+}
+// Give unavailable third-party icon images a legible visual fallback instead of a broken-image box.
+document.querySelectorAll('.skill-icon img').forEach((img)=>{
+  img.addEventListener('error',()=>{
+    const label=img.closest('.skill-name')?.textContent?.trim()||'';
+    const glyphs={'Excel':'▦','SQL':'▤','SQLite':'▣','Python':'🐍','Power BI':'▥','Kotlin':'◆','Android Development':'▱','Telegram Bots':'➤','AI Agents':'✦','Troubleshooting':'⚙','Bootloader Procedures':'⌁'};
+    const fallback=document.createElement('span');fallback.textContent=glyphs[label]||'✦';fallback.setAttribute('aria-hidden','true');fallback.style.cssText='color:var(--accent);font-size:16px;line-height:1';
+    img.replaceWith(fallback);
+  },{once:true});
+});
+document.querySelectorAll('.social-icon').forEach((img)=>img.addEventListener('error',()=>{
+  const label=img.parentElement?.textContent||'';
+  const glyph=label.includes('GitHub')?'●':label.includes('LinkedIn')?'in':label.includes('Telegram')?'➤':label.includes('Google Play')?'▶':label.includes('WhatsApp')?'◉':label.includes('Email')?'✉':label.includes('map')?'⌖':'✉';
+  const fallback=document.createElement('span');fallback.textContent=glyph;fallback.setAttribute('aria-hidden','true');fallback.style.cssText='display:inline-grid;place-items:center;width:16px;height:16px;color:var(--accent);font-weight:800';img.replaceWith(fallback);
+},{once:true}));
+// Language preference is restored on refresh; the fixed LTR hero grid keeps the portrait on the right.
+
+document.getElementById('langToggle').addEventListener('click',()=>applyLanguage(!arabic));
+try{applyLanguage(localStorage.getItem('ib-language')==='ar')}catch(e){applyLanguage(false)}
+
+</script>
+</body></html>
